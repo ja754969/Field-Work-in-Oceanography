@@ -1,0 +1,17 @@
+# python 
+.ipynb_checkpoints
+.voscode
+
+
+# MATLAB
+*.asv
+
+# File type
+*.zip
+
+
+
+
+# Large file : More than 50 MB (in the shell : "find * -size +50M | cat >> .gitignore")
+
+drive-download-20211213T095122Z-001.zip

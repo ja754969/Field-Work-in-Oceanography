@@ -1,0 +1,235 @@
+[ADCP Port Setup]
+AdcpComPortName=COM1
+AdcpComBaudRate=9600
+AdcpComParity=NOPARITY
+AdcpComStopBits=1
+AdcpComDataBits=8
+AdcpConfigFilename=C:\Program Files\RD Instruments\VmDas\BB8M.txt
+
+[NMEA Port Setup]
+NMEANavComEnable=TRUE
+NmeaNavComPortName=COM2
+NmeaNavComBaudRate=4800
+NmeaNavComParity=NOPARITY
+NmeaNavComStopBits=1
+NmeaNavComDataBits=8
+NMEARPHComEnable=FALSE
+NmeaRPHComPortName=COM3
+NmeaRPHComBaudRate=9600
+NmeaRPHComParity=NOPARITY
+NmeaRPHComStopBits=1
+NmeaRPHComDataBits=8
+
+[Serial Port for Binary Ensemble Data Output]
+BinaryEnsembleOutputComEnable=FALSE
+BinaryEnsembleOutputComPortName=None
+BinaryEnsembleOutputComBaudRate=9600
+BinaryEnsembleOutputComParity=NOPARITY
+BinaryEnsembleOutputComStopBits=1
+BinaryEnsembleOutputComDataBits=8
+BinaryEnsembleOutputDataType(0:none;1:enr;2:enx;3:sta;4:lta)=0
+BinaryEnsembleOutputRefVelType(0:none;1:Bottom;2:Mean)=0
+BinaryEnsembleOutputStartBin=1
+BinaryEnsembleOutputEndBin=4
+BinaryEnsembleOutputMeanStartBin=1
+BinaryEnsembleOutputMeanEndBin=4
+BinaryEnsembleOutputLeader(0:no;1:yes)=TRUE
+BinaryEnsembleOutputBottomTrack(0:no;1:yes)=TRUE
+BinaryEnsembleOutputNavigation(0:no;1:yes)=TRUE
+BinaryEnsembleOutputVelocity(0:no;1:yes)=TRUE
+BinaryEnsembleOutputIntensity(0:no;1:yes)=TRUE
+BinaryEnsembleOutputCorrelation(0:no;1:yes)=TRUE
+BinaryEnsembleOutputPercentGood(0:no;1:yes)=TRUE
+BinaryEnsembleOutputStatus(0:no;1:yes)=TRUE
+
+[Serial Port for ASCII Ensemble Data Output]
+AsciiEnsembleOutputComEnable=FALSE
+AsciiEnsembleOutputComPortName=None
+AsciiEnsembleOutputComBaudRate=9600
+AsciiEnsembleOutputComParity=NOPARITY
+AsciiEnsembleOutputComStopBits=1
+AsciiEnsembleOutputComDataBits=8
+AsciiEnsembleOutputDataType(0:none;1:enr;2:enx;3:sta;4:lta)=0
+AsciiEnsembleOutputRefVelType(0:none;1:Bottom;2:Mean)=0
+AsciiEnsembleOutputStartBin=1
+AsciiEnsembleOutputEndBin=4
+AsciiEnsembleOutputStoreToDisk(0:no;1:yes)=FALSE
+AsciiEnsembleOutMeanStartBin=1
+AsciiEnsembleOutputMeanEndBin=4
+AsciiEnsembleOutputLeader(0:no;1:yes)=TRUE
+AsciiEnsembleOutputBottomTrack(0:no;1:yes)=TRUE
+AsciiEnsembleOutputNavigation(0:no;1:yes)=TRUE
+AsciiEnsembleOutputVelocity(0:no;1:yes)=TRUE
+AsciiEnsembleOutputIntensity(0:no;1:yes)=TRUE
+AsciiEnsembleOutputCorrelation(0:no,1:yes)=TRUE
+AsciiEnsembleOutputPercentGood(0:no;1:yes)=TRUE
+AsciiEnsembleOutputStatus(0:no;1:yes)=TRUE
+
+[Serial Port for Speed Log Output]
+SpeedLogComEnable=FALSE
+Speed Log ComPortName=None
+Speed Log ComBaudRate=9600
+Speed Log ComParity=NOPARITY
+Speed Log ComStopBits=1
+Speed Log ComDataBits=8
+
+[IP Port for Binary Ensemble Data Output]
+BinaryEnsembleOutputNetEnable=FALSE
+BinaryEnsembleOutputIPPortNumber=5433
+
+[IP Port for ASCII Ensemble Data Output]
+AsciiEnsembleOutputNetEnable=FALSE
+AsciiEnsembleOutputIPPortNumber=5433
+
+[IP Port for Speed Log Output]
+SpeedLogNetEnable=FALSE
+SpeedLogHostName/IPAddress=5434
+
+[Fake Data Options]
+AdcpFakeDataEnable=FALSE
+AdcpFakeDataFilename=SimAdcp.enr
+FakeDataTimeBetweenEnsembles=2
+NMEAFakeDataEnable=FALSE
+NMEAFakeDataFilename=SimNav.nmr
+
+[File Name Components]
+EnableDualRecordDir=FALSE
+FileRecordPath=D:\ADCPDATA\C1267\
+FileRecordBackupPath=C:\RDI\ADCP\
+DeploymentName=C1267
+DeploymentNumber=0
+MaximumFileSize=10
+
+[Bottom Track Data Screening Options]
+BTAmpScreenEnable=FALSE
+BTCorScreenEnable=FALSE
+BTErrScreenEnable=FALSE
+BTVertScreenEnable=FALSE
+BTFishScreenEnable=FALSE
+BTPctGoodScreenEnable=FALSE
+BTAmplitudeThreshold=30
+BTCorrelationThreshold=220
+BTErrorVelThreshold=1000
+BTVerticalVelThreshold=1000
+BTFishThreshold=50
+BTPctGoodThreshold=50
+
+[Water Track Data Screening Options]
+WTAmpScreenEnable=FALSE
+WTCorScreenEnable=FALSE
+WTErrScreenEnable=FALSE
+WTVertScreenEnable=FALSE
+WTFishScreenEnable=FALSE
+WTPctGoodScreenEnable=FALSE
+WTAmplitudeThreshold=30
+WTCorrelationThreshold=180
+WTErrorVelThreshold=1000
+WTVerticalVelThreshold=1000
+WTFishThreshold=50
+WTPctGoodThreshold=50
+
+[Profile Data Screening Options]
+PRAmpScreenEnable=FALSE
+PRCorScreenEnable=FALSE
+PRErrScreenEnable=FALSE
+PRVertScreenEnable=FALSE
+PRFishScreenEnable=FALSE
+PRPctGoodScreenEnable=FALSE
+PRMarkBadBelowBottom=FALSE
+PRAmplitudeThreshold=30
+PRCorrelationThreshold=180
+PRErrorVelThreshold=1000
+PRVerticalVelThreshold=1000
+PRFishThreshold=50
+PRPctGoodThreshold=50
+
+[Transformation Options]
+XformToEarth=TRUE
+Allow3Beam=TRUE
+BinMap=TRUE
+BeamAngleSrc(0:auto,1:man)=0
+ManualBeamAngle=30
+HeadingSource(0:adcp,1:navHDT,2:navHDG,3:navPRDID,4:manual)=0
+ManualHeading=0
+TiltSource(0:adcp,1:nav,2:man)=0
+ManualPitch=0
+ManualRoll=0
+SensorConfigSrc(0:PRfixed,1:Pfixed,2:auto)=2
+ConcavitySource(0:convex,1:concave,2:auto)=2
+UpDownSource(0:dn,1:up,2:auto)=2
+EnableHeadingCorrections=TRUE
+SinCorrectionAmplitudeCoefficient=0
+SinCorrectionPhaseCoefficient=0
+MagneticOffsetEV=0
+AlignmentOffsetEA=60
+EnableVelocityScaling=FALSE
+VelocityScaleFactorForBTVelocities(unitless)=1
+VelocityScaleFactorForProfileAndWTVelocities(unitless)=1
+
+[Averaging Options]
+AvgMethod(0:time,1:dist)=0
+FirstAvgTime=60
+SecondAvgTime=600
+FirstAvgDistance=10
+SecondAvgDistance=1000
+EnableRefLayerAvg=TRUE
+RefLayerStartBin=3
+RefLayerEndBin=10
+
+[Reference Velocity Options]
+RefVelSelect(0:none,1:BT,2:WT,3:LYR,4:NDP,5:NAP,6:NSPD)=4
+VelRefLayerStartBin=3
+VelRefLayerEndBin=5
+RefVelUnitVel(0:mm/s,1:m/s,2:knots,3:ft/s)=1
+RefVelUnitDepth(0:m,1:cm,2:ft)=0
+
+[User Exit Options]
+UserWinAdcpEnable=FALSE
+UserWinAdcpPath=C:\Program Files\RD Instruments\WinAdcp\WinAdcp.exe
+UserWinAdcpUpdateInterval(sec)=10
+UserWinAdcpFileType(0:enr,1:enx,2:sta,3:lta)=3
+UserAdcpScreening=FALSE
+UserNavScreening=FALSE
+UserTransform=FALSE
+
+[Shiptrack Options]
+ShipTrack1Source(0:Nav;1:BT;2:WT;3:Layer)=0
+ShipTrack2Source(0:Nav;1:BT;2:WT;3:Layer)=1
+ShipTrack1RedStickEnable=TRUE
+ShipTrack1GreenStickEnable=TRUE
+ShipTrack1BlueStickEnable=TRUE
+ShipTrack2RedStickEnable=TRUE
+ShipTrack2GreenStickEnable=TRUE
+ShipTrack2BlueStickEnable=TRUE
+ShipTrack1RedBin=1
+ShipTrack1GreenBin=2
+ShipTrack1BlueBin=3
+ShipTrack2RedBin=1
+ShipTrack2GreenBin=2
+ShipTrack2BlueBin=3
+ShipTrack1DisplaySelect(0:Lat/Lon;1:Distance)=0
+ShipTrack2DisplaySelect(0:Lat/Lon;1:Distance)=0
+ShipTrack1WaterLayerStartBin=3
+ShipTrack1WaterLayerEndBin=5
+ShipTrack2WaterLayerStartBin=3
+ShipTrack2WaterLayerEndBin=5
+ShipTrackDistanceUnit=0
+
+[ADCP Setup Options]
+SetProfileParameters=FALSE
+NumberOfBins=100
+BinSize(meters)=8
+BlankDistance(meters)=8
+TransducerDepth(meters)=0
+SetBTEnable(0:SendBPCmd,1:Don'tSendBPCmd)=FALSE
+ADCPSetupMethod(0:Options,1:CommandFile)=1
+BtmTrkEnable(0:SendBP0,1:SendBP1)=1
+MaxRange(meters)=2000
+SetHdgSensorType=FALSE
+HdgSensorType(0:internal,1:external)=-1
+SetTiltSensorType=FALSE
+TiltSensorType(0:internal,1:external)=-1
+SetProcessingMode=FALSE
+BandwidthType(0:Wide,1:Narrow)=-1
+ADCPTimeBetweenEnsemblesSel=1
+ADCPTimeBetweenEnsembles=2

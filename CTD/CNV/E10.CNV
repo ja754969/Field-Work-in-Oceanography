@@ -1,0 +1,121 @@
+* Sea-Bird SBE 9 Raw Data File:
+* FileName = D:\SS4249\CR1267\E10.DAT
+* Software Version 4.249
+* Temperature SN = 1572
+* Conductivity SN = 1344
+* Number of Bytes Per Scan = 38
+* Number of Voltage Words = 5
+* Number of Scans Averaged by the Deck Unit = 4
+* Append System Time to Every Scan
+* System UpLoad Time = Dec 25 2007  18:44:55
+* NMEA Latitude = 21 53.29 N
+* NMEA Longitude = 120 49.61 E
+* NMEA UTC (Time) = Dec 25 2007  18:44:55
+* Store Lat/Lon Data = Append to Every Scan
+* Command Line = seasave 
+** Ship:      OR3
+** Cruise:    1267
+** Station:   E10
+** Latitude:  21-53.329
+** Longitude: 120-49.563
+** 45M
+# nquan = 7
+# nvalues = 41                          
+# units = metric
+# name 0 = pr: pressure [db]
+# name 1 = t090: temperature, ITS-90 [deg C]
+# name 2 = c0S/m: conductivity [S/m]
+# name 3 = sal00: salinity, PSS-78 [PSU]
+# name 4 = sigma-é00: density, sigma-theta [kg/m^3]
+# name 5 = flag:  0.000e+00
+# name 6 = nbin: number of scans per bin
+# span 0 = 1.000, 41.000                          
+# span 1 = 24.2037, 25.5062                       
+# span 2 = 3.532379, 5.238422                     
+# span 3 = 22.5192, 34.4036                       
+# span 4 = 14.1039, 23.1321                       
+# span 5 = 0.0000e+00, 0.0000e+00                 
+# span 6 = 3.0000, 7.0000                         
+# interval = decibars: 1                                
+# start_time = Dec 25 2007 18:44:55
+# bad_flag = -9.990e-29
+# sensor 0 = Frequency  0  temperature, 1572, 14-Nov-06
+# sensor 1 = Frequency  1  conductivity, 1344, 14-Nov-06, cpcor = -9.5700e-08
+# sensor 2 = Frequency  2  pressure, 77503, 10-Nov-06
+# sensor 3 = Extrnl Volt  0  Oxygen, SBE, primary, 0460, 2-Jan-05
+# sensor 4 = Extrnl Volt  2  transmissometer, 161057, 23-MAY-2003
+# sensor 5 = Extrnl Volt  3  fluorometer, chelsea, 088254, 21-May-2003
+# sensor 6 = Extrnl Volt  4  pH, 180304, 17-Feb-04
+# sensor 7 = Extrnl Volt  6  irradiance (PAR), 4439, 10/05/95
+# sensor 8 = Extrnl Volt  9  surface irradiance (SPAR), degrees = 0.0
+# datcnv_date = Dec 28 2007 07:14:21, 4.249
+# datcnv_in = E10.DAT E10.CON
+# datcnv_skipover = 0
+# celltm_date = Dec 28 2007 07:14:38, 4.249
+# celltm_in = E10.CNV
+# celltm_alpha = 0.0300, 0.0000
+# celltm_tau = 7.0000, 0.0000
+# celltm_temp_sensor_use_for_cond = primary, 
+# filter_date = Dec 28 2007 07:14:55, 4.249
+# filter_in = E10.CNV
+# filter_low_pass_tc_A = 0.150
+# filter_low_pass_tc_B = 0.030
+# filter_low_pass_A_vars = pr
+# filter_low_pass_B_vars = c0S/m
+# loopedit_date = Dec 28 2007 07:15:15, 4.249
+# loopedit_in = E10.CNV
+# loopedit_minVelocity = 0.250          
+# loopedit_excl_bad_scans = yes
+# binavg_date = Dec 28 2007 07:15:29, 4.249
+# binavg_in = E10.CNV
+# binavg_bintype = Pressure Bins
+# binavg_binsize = 1.00
+# binavg_excl_bad_scans = yes
+# binavg_downcast_only = no
+# binavg_skipover = 0
+# binavg_surface_bin = no, min = 0.000, max = 0.000, value = 0.000
+# derive_date = Dec 28 2007 07:15:40, 4.249
+# derive_in = E10.CNV E10.CON
+# file_type = ascii
+*END*
+      1.000    24.4240   3.532379    22.5192    14.1039 0.0000e+00     5.0000
+      2.000    25.4952   5.193943    33.7904    22.2767 0.0000e+00     4.0000
+      3.000    25.5062   5.230711    34.0507    22.4699 0.0000e+00     5.0000
+      4.000    25.4720   5.234084    34.1007    22.5182 0.0000e+00     4.0000
+      5.000    25.4472   5.225973    34.0596    22.4948 0.0000e+00     7.0000
+      6.000    25.4619   5.233916    34.1064    22.5258 0.0000e+00     6.0000
+      7.000    25.4667   5.235433    34.1136    22.5298 0.0000e+00     6.0000
+      8.000    25.4607   5.237849    34.1355    22.5482 0.0000e+00     5.0000
+      9.000    25.4524   5.238422    34.1457    22.5585 0.0000e+00     4.0000
+     10.000    25.4484   5.237123    34.1388    22.5546 0.0000e+00     5.0000
+     11.000    25.4427   5.234688    34.1250    22.5460 0.0000e+00     7.0000
+     12.000    25.4437   5.236311    34.1358    22.5539 0.0000e+00     5.0000
+     13.000    25.4288   5.237329    34.1541    22.5724 0.0000e+00     5.0000
+     14.000    25.4122   5.236119    34.1574    22.5800 0.0000e+00     5.0000
+     15.000    25.4177   5.237393    34.1623    22.5821 0.0000e+00     4.0000
+     16.000    25.4049   5.236208    34.1630    22.5865 0.0000e+00     5.0000
+     17.000    25.4033   5.234650    34.1524    22.5792 0.0000e+00     7.0000
+     18.000    25.4025   5.235259    34.1572    22.5831 0.0000e+00     5.0000
+     19.000    25.4047   5.236632    34.1653    22.5886 0.0000e+00     4.0000
+     20.000    25.4090   5.237043    34.1648    22.5869 0.0000e+00     5.0000
+     21.000    25.3982   5.235975    34.1647    22.5903 0.0000e+00     6.0000
+     22.000    25.3947   5.236357    34.1699    22.5953 0.0000e+00     4.0000
+     23.000    25.3917   5.236300    34.1714    22.5974 0.0000e+00     5.0000
+     24.000    25.3946   5.236480    34.1702    22.5957 0.0000e+00     5.0000
+     25.000    25.3964   5.237085    34.1730    22.5973 0.0000e+00     4.0000
+     26.000    25.3965   5.237607    34.1764    22.6000 0.0000e+00     3.0000
+     27.000    25.3064   5.234130    34.2184    22.6593 0.0000e+00     4.0000
+     28.000    25.1867   5.220254    34.2063    22.6867 0.0000e+00     4.0000
+     29.000    25.2521   5.224995    34.1916    22.6557 0.0000e+00     6.0000
+     30.000    25.1737   5.220983    34.2209    22.7018 0.0000e+00     6.0000
+     31.000    25.0643   5.212935    34.2440    22.7525 0.0000e+00     6.0000
+     32.000    24.8729   5.196085    34.2641    22.8257 0.0000e+00     5.0000
+     33.000    24.7468   5.188087    34.3004    22.8912 0.0000e+00     3.0000
+     34.000    24.4539   5.160018    34.3145    22.9898 0.0000e+00     4.0000
+     35.000    24.3795   5.150182    34.2976    22.9993 0.0000e+00     3.0000
+     36.000    24.3329   5.144895    34.2933    23.0100 0.0000e+00     4.0000
+     37.000    24.3071   5.142911    34.2979    23.0212 0.0000e+00     4.0000
+     38.000    24.3045   5.143388    34.3032    23.0260 0.0000e+00     7.0000
+     39.000    24.2816   5.141551    34.3066    23.0355 0.0000e+00     6.0000
+     40.000    24.2718   5.142310    34.3195    23.0483 0.0000e+00     7.0000
+     41.000    24.2037   5.146577    34.4036    23.1321 0.0000e+00     4.0000

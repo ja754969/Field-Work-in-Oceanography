@@ -1,0 +1,22 @@
+* Sea-Bird SBE 9 Raw Data File:
+* FileName = D:\SS4249\CR1267\E23.HDR
+* Software Version 4.249
+* Temperature SN = 1572
+* Conductivity SN = 1344
+* Number of Bytes Per Scan = 38
+* Number of Voltage Words = 5
+* Number of Scans Averaged by the Deck Unit = 4
+* Append System Time to Every Scan
+* System UpLoad Time = Dec 26 2007  08:18:44
+* NMEA Latitude = 21 53.41 N
+* NMEA Longitude = 120 49.50 E
+* NMEA UTC (Time) = Dec 26 2007  08:18:44
+* Store Lat/Lon Data = Append to Every Scan
+* Command Line = seasave 
+** Ship:      OR3
+** Cruise:    1267
+** Station:   E23
+** Latitude:  21-53.399
+** Longitude: 120-49.542
+** 45M
+*END*
