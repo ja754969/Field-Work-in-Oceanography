@@ -94,6 +94,7 @@ view(0,-90)
 ax1.FontSize = 15;
 ax1.XTick = 2:2:28;
 ax1.XAxisLocation = 'top';
+ax1.TickDir = 'both';
 % ax1.XLabel = 'Hours (From Dec-25-2007 07:44:08 to Dec 26 2007 12:43:49';
 
 ax2 = axes;
@@ -108,15 +109,18 @@ RGB2 = ind2rgb(X2,cmap2);
 colormap(gca,flipud(reshape(RGB2(10,:,:),size(RGB2,2),3)));
 % ---imread colormap---%
 c2.Label.String = 'psu';
-title({'Timestamp (From Dec-25-2007 07:44:08 to Dec 26 2007 12:43:49)',...
+title({'Timestamp (From Dec-25-2007 07:44:08 to Dec-6-2007 12:43:49)',...
     ' '})
 ylabel('depth [m]')
 xlabel('Salinity Profile Time Series')
 view(0,-90)
 ax2.FontSize = 15;
 ax2.XTick = 2:2:28;
+ax2.TickDir = 'both';
 
-
+%%
+mkdir('./results');
+saveas(gcf,'./results/profile_time_series.jpg')
 
 
 
