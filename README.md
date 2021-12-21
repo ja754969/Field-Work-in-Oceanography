@@ -1,0 +1,33 @@
+# 海洋觀測實習
+## CTD 測站資料
+- `./CTD/CNV./C01.CNV`
+- `./CTD/CNV./C02.CNV`
+- `./CTD/CNV./C03.CNV`
+- `./CTD/CNV./C04.CNV`
+- `./CTD/CNV./C05.CNV`
+- `./CTD/CNV./C06.CNV`
+- `./CTD/CNV./C07.CNV`
+- `./CTD/CNV./C08.CNV`
+- `./CTD/CNV./C09.CNV`
+- `./CTD/CNV./C10.CNV`
+- `./CTD/CNV./C11.CNV`
+- `./CTD/CNV./C12.CNV`
+- `./CTD/CNV./C13.CNV`
+- `./CTD/CNV./C14.CNV`
+- `./CTD/CNV./C15.CNV`
+- `./CTD/CNV./C16.CNV`
+- `./CTD/CNV./C17.CNV`
+- `./CTD/CNV./C18.CNV`
+- `./CTD/CNV./C19.CNV`
+- `./CTD/CNV./C20.CNV`
+- `./CTD/CNV./C21.CNV`
+- `./CTD/CNV./C22.CNV`
+- `./CTD/CNV./C23.CNV`
+- `./CTD/CNV./C24.CNV`
+- `./CTD/CNV./C25.CNV`
+- `./CTD/CNV./C26.CNV`
+- `./CTD/CNV./C27.CNV`
+- `./CTD/CNV./C28.CNV`
+## Sb-ADCP 軌跡與流矢
+### WinADCP 資料前處裡
+- `./C1267/C1267000_000000.STA`
