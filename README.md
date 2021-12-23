@@ -38,13 +38,13 @@
 - `./C1267/C1267000_000000.STA`  
 
 #### Step 
-[Imgur](https://i.imgur.com/uGkw2Zb.png)  
-[Imgur](https://i.imgur.com/KJrtSQu.png)  
-[Imgur](https://i.imgur.com/QtSvLHF.png)  
-[Imgur](https://i.imgur.com/aLbemUs.png)  
-[Imgur](https://i.imgur.com/YD2OAet.png)  
-[Imgur](https://i.imgur.com/fZEUAf6.png)  
-[Imgur](https://i.imgur.com/GJwnHCU.png)  
-[Imgur](https://i.imgur.com/RHzK9p3.png)  
-[Imgur](https://i.imgur.com/MJoSjOQ.png)  
-[Imgur](https://i.imgur.com/ZYwSVjH.png)
+![](https://i.imgur.com/uGkw2Zb.png)  
+![](https://i.imgur.com/KJrtSQu.png)  
+![](https://i.imgur.com/QtSvLHF.png)  
+![](https://i.imgur.com/aLbemUs.png)  
+![](https://i.imgur.com/YD2OAet.png)  
+![](https://i.imgur.com/fZEUAf6.png)  
+![](https://i.imgur.com/GJwnHCU.png)  
+![](https://i.imgur.com/RHzK9p3.png)  
+![](https://i.imgur.com/MJoSjOQ.png)  
+![](https://i.imgur.com/ZYwSVjH.png)
