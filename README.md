@@ -1,7 +1,11 @@
-# 海洋觀測實習
-## CTD 測站資料
-- `./CTD/CNV/C01.CNV`
-- `./CTD/CNV/C02.CNV`
+# 海洋觀測實習-研究船海研三號探測紀錄 Survey Log (SL) 
+航次代號 : 1267  
+## CTD 測站資料 (21°N 54', 120°E 46')
+
+2007/12/25 15:42 ~ 2007/12/26 20:49
+
+- `./CTD/CNV/C01.CNV` 2007/12/25 15:42 ~ 2007/12/25 15:53
+- `./CTD/CNV/C02.CNV` 2007/12/25 16:57 ~ 2007/12/25 17:03
 - `./CTD/CNV/C03.CNV`
 - `./CTD/CNV/C04.CNV`
 - `./CTD/CNV/C05.CNV`
@@ -28,11 +32,15 @@
 - `./CTD/CNV/C26.CNV`
 - `./CTD/CNV/C27.CNV`
 - `./CTD/CNV/C28.CNV`
-### Time-depth contours of temperature
 
-### Time-depth contours of salinity
+More Information : https://github.com/ja754969/Field-Work-in-Oceanography/blob/115a3be97fff9b2b710b5c5f4e96f17a3ccebb0c/1267.doc
 
+## Time-depth contours of temperature (upper panel)
+![](https://github.com/ja754969/Field-Work-in-Oceanography/blob/master/results/profile_time_series.jpg?raw=true)
+## Time-depth contours of salinity (lower panel)
+![](https://github.com/ja754969/Field-Work-in-Oceanography/blob/master/results/profile_time_series.jpg?raw=true)
 ## Sb-ADCP 軌跡與流矢  
+
 ### WinADCP 資料前處理  
 ![](https://i.imgur.com/QMapR1t.png)  
 - `./C1267/C1267000_000000.STA`  
@@ -48,3 +56,21 @@
 ![](https://i.imgur.com/RHzK9p3.png)  
 ![](https://i.imgur.com/MJoSjOQ.png)  
 ![](https://i.imgur.com/ZYwSVjH.png)
+
+## Current vector figure of 7 rounds (From 2007/12/25 10:02:53 ~ 2007/12/28 03:10:54)
+### Number 1 (2007/12/25 10:02:53 ~ )
+
+
+### Number 2 ()
+
+### Number 3 ()
+
+
+### Number 4 ()
+
+
+### Number 5 ()
+
+### Number 6 ()
+
+### Number 7 ( ~ 2007/12/28 03:10:54)
