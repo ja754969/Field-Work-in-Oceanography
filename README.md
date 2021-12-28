@@ -58,6 +58,7 @@ More Information : https://github.com/ja754969/Field-Work-in-Oceanography/blob/1
 ![](https://i.imgur.com/ZYwSVjH.png)
 
 ## Current vector figure of 7 rounds (From 2007/12/25 10:02:53 ~ 2007/12/28 03:10:54)
+
 ### Number 1 (2007/12/25 10:02:53 ~ )
 
 
@@ -74,3 +75,7 @@ More Information : https://github.com/ja754969/Field-Work-in-Oceanography/blob/1
 ### Number 6 ()
 
 ### Number 7 ( ~ 2007/12/28 03:10:54)
+
+
+### All rounds
+![](https://github.com/ja754969/Field-Work-in-Oceanography/blob/master/results/ship_track_current.jpg?raw=true)
